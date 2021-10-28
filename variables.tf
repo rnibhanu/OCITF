@@ -15,8 +15,8 @@ variable "fingerprint" {
 }
 
 variable "private_key_path" {
-  default = "/home/opc/.oci/oci_api_key.pem"
-  #default = "/var/lib/jenkins/workspace/iac-demo/oci_api_key.pem"
+  #default = "/home/opc/.oci/oci_api_key.pem"
+  default = "/var/lib/jenkins/workspace/iac-demo/oci_api_key.pem"
 }
 variable "AD" {
   default = "2"

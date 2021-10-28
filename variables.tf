@@ -1,28 +1,29 @@
 variable "compartment_ocid" {
-  default = "ocid1.tenancy.oc1..aaaaaaaadnvhy2rcdc2xroaserm3u6m4s2bookfzc5scr23ri6nq5rzmkp4q"
+  default = "ocid1.compartment.oc1..aaaaaaaaggcz73ncqes4lsyfvncy22xdshbpnjvwrczgenywtx5vnlwdqh5a"
 }
 
 variable "tenancy_ocid" {
-  default = "ocid1.tenancy.oc1..aaaaaaaadnvhy2rcdc2xroaserm3u6m4s2bookfzc5scr23ri6nq5rzmkp4q"
+  default = "ocid1.tenancy.oc1..aaaaaaaasebb2h3a564nvf6ekja53uhy3rto4o3imikhgeuni2yyohsukesq"
 }
 
 variable "user_ocid" {
-  default = "ocid1.user.oc1..aaaaaaaativfczdnl77prvyi6az7xh6ngnrfsnfq5rn3j3mjpbfcz6usc36q"
+  default = "ocid1.user.oc1..aaaaaaaagpnf5ea5azxgo3xzu7uagylgys6ufupaaiasndxlojlwfkuxiwva"
 }
 
 variable "fingerprint" {
-  default = "b8:bf:6c:95:30:a1:6c:a7:c6:b7:68:82:a8:df:93:93"
+  default = "e2:ec:e9:7e:74:d3:9b:5a:1a:e7:d4:6b:1d:cc:db:c5"
 }
 
 variable "private_key_path" {
-  default = "/var/lib/jenkins/workspace/Terraform_Pipeline/ociprivate.pem"
+  default = "/home/opc/.oci/oci_api_key.pem"
+  #default = "/var/lib/jenkins/workspace/iac-demo/oci_api_key.pem"
 }
 variable "AD" {
   default = "2"
 }
 
 variable "region" {
-  default = "ap-hyderabad-1"
+  default = "us-ashburn-1"
 }
 
 variable "vcn_cidr" {
